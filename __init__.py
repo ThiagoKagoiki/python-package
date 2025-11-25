@@ -1,0 +1,1 @@
+from .bhaskara import bhaskaraCalc, delta, raizSoma, raizSubtracao
