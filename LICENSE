@@ -1,0 +1,20 @@
+```toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhaskara"
+version = "1.0.0"
+description = "Biblioteca simples para cálculo de raízes de equações quadráticas usando a fórmula de Bhaskara."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name="Vinicius Laureano Guizardi", email="vinicius.guizardi@gmail.com" }
+]
+keywords = ["math", "bhaskara", "equation", "quadratic", "delta", "raízes"]
+
+[project.urls]
+"Homepage" = "https://test.pypi.org/project/bhaskara/"
+"Source Code" = "https://github.com/SEU_USUARIO/bhaskara"
